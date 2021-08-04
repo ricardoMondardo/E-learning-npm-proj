@@ -7,7 +7,7 @@ Components.forEach(component => {
   });
 
 var app = new Vue({
-    el: '#app',    
+    el: '#app-e-learning',    
     data: {
       message: 'Hello Vue!'
     },

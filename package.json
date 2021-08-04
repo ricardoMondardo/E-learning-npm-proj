@@ -1,0 +1,21 @@
+{
+  "name": "e-learning-npm-proj",
+  "version": "1.0.0",
+  "description": "e-learning npm proj front-end",
+  "main": "app-e-learning",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx webpack --config webpack.config.js",
+    "start": "node local-server.js"
+  },
+  "author": "Ricardo Brina Mondardo",
+  "license": "ISC",
+  "dependencies": {
+    "vue.js": "^0.3.2"
+  },
+  "devDependencies": {
+    "express": "^4.17.1",
+    "webpack": "^5.48.0",
+    "webpack-cli": "^4.7.2"
+  }
+}
